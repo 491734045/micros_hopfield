@@ -1,0 +1,10 @@
+int64 sx
+int64 sy
+int64 ex
+int64 ey
+---
+int64 Route_Points
+int64[] Route_X
+int64[] Route_Y
+
+
