@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>micros_hopfield</name> 
-  <version>0.0.2</version>
+  <version>0.0.3</version>
   <description>A package for path planning</description>
 
   <maintainer email="13975167889@163.com">Dengqing Tang</maintainer>
