@@ -35,14 +35,14 @@
 */
 #include "ros/ros.h"
 
-#include "micros_hopfield/Plan.h"
+#include "micros_hopfield/plan.h"
 
-#include "Frame_Visualization/plan_visualization.h"
+#include "plan_visualization.h"
 
 
-#include "Algorithm_PRM/algo.h"
+#include "hopfield_algo.h"
 
-bool plan(micros_hopfield::Plan::Request  &req,micros_hopfield::Plan::Response &res )
+bool plan(micros_hopfield::plan::Request  &req,micros_hopfield::plan::Response &res )
 {
     //----------------------------------------------
     //initialize

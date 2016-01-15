@@ -1,9 +1,10 @@
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Changelog for package micros_hopfield
+Changelog for package micROS_Hopfield
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.0.3 (2015-12-16)
+0.0.2 (2015-09-23)
 ------------------
-* Updated
-* first version
-* Contributors: Dengqing
+* add changelog
+* update 0.2
+* 0.1
+* Contributors: 491734045, Dengqing Tang

@@ -35,12 +35,12 @@
 */
 #include <cstdlib>
 #include <sstream>
-#include <iostream> 
+#include <iostream>
 #include <time.h>
 #include <stdlib.h>
 #include "ros/ros.h"
-#include "micros_hopfield/Plan.h"
-#include "Frame_Visualization/plan_visualization.h"
+#include "micros_hopfield/plan.h"
+#include "plan_visualization.h"
 
 using namespace std;
 
@@ -68,13 +68,13 @@ int main(int argc, char **argv)
 
   char Name[255];
   sprintf(Name,"X%d",NodeID);
-  ros::init(argc, argv, Name);
+  ros::init(argc, argv, Name); 
  
   ros::NodeHandle n;
 
   //service of plan 
-  ros::ServiceClient client = n.serviceClient<micros_hopfield::Plan>("Planner");
-  micros_hopfield::Plan srv;
+  ros::ServiceClient client = n.serviceClient<micros_hopfield::plan>("Planner");
+  micros_hopfield::plan srv;
 	
   //publish the rviz
   InitMarkerPublisher();

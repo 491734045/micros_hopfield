@@ -39,7 +39,7 @@ Note: Run this command under `~/catkin_ws` directory.
 ```
 rosrun micros_hopfield plan_server
 ```
-Note: Run this command under `~/catkin_ws/src/micros_hopfield-master` directory, due to loading the terrain map.
+Note: Run this command under `~/catkin_ws` directory, due to loading the terrain map.
 
 -**Open a new consol for client**. Set up environment variables
 ```
